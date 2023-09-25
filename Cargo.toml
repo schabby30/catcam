@@ -1,0 +1,18 @@
+[package]
+name = "catcam"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+show-image = "0.13.1"
+
+[dependencies.image]
+version = "0.24.7"
+default-features = false
+
+[dependencies.nokhwa]
+version = "0.10.4"
+# EDIT THIS!
+features = ["input-native", "output-threaded"]
